@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+</head>
+
+   <style type="">
+   		*{
+   			box-sizing: border-box;
+   		}
+   		  
+   		  .Content{
+            text-align: center;
+            font-size:40px;
+   		  	color: white;
+   		  	height: 200px;
+   		  	width: 20%;
+   		  	animation-name: color;
+   		  	background-color: black;
+   		  	animation-duration: 4s;
+   		  	animation-delay: 5ms;
+   		  	position: absolute;
+   		  	animation-iteration-count: infinite;
+   		  	animation-timing-function: linear;
+   		  	animation-direction: alternate;
+   		  	
+   		  }
+
+   		  .Content:hover{
+   		  	background-color: pink;
+   		  }
+
+   		  @keyframes color {
+
+   		  	from{
+
+   		  		background-color: red;
+
+   		  	}
+   		  	to{
+   		  		background-color: blue;
+   		  	}
+       
+            0%{left: 5% ; top:5%;}
+             25%{left: 78% ; top:5%;}
+              50%{left: 78% ; top:78%;}
+               75%{left: 5% ; top:78%;}
+                100%{left: 5% ; top:5%;}
+   		  	
+   		  }
+
+   </style>
+<body style="background-color: yellowgreen;">
+
+	  <div class="Content" >
+            Manav
+	  </div>
+
+</body>
+</html>
