@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tooltip</title>
+
+
+	<style type="text/css">
+		
+     .tooltip{
+
+     	display: inline-block;
+     	
+     	position: relative;
+
+
+     }
+
+      .tooltip .tooltipText{
+
+      	visibility: hidden;
+      	position: absolute;
+      	z-index: 1;
+      	background-color: royalblue;
+      	border-radius: 10px;
+      	width: 190px;
+
+       
+
+     }
+    
+      .tooltip:hover .tooltipText{
+
+      	visibility: visible;
+
+
+      }
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="tooltip">
+		
+         HTML
+
+     <span class="tooltipText">
+     	HyperText Markup Langague
+     </span>
+
+	</div>
+
+</body>
+</html>
